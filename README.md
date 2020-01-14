@@ -23,7 +23,7 @@ Features for this group project were divided out and assigned to team members. I
  
 ## Playlist CRUD
  
-Users can create/delete custom playlists and customize them by adding and deleting songs. One challenge was to have the current user's playlists update in real-time when adding or deleting data. The quickest and easiest solution was to refetch data on a specific internal via polling in order to achieve near-real time data. Polling, however, does not scale well. If this were a larger project, using the update function on the cache or refetchQueries prop to refresh would be more optimal. 
+Users can create/delete playlists and customize them by adding and deleting songs. One challenge was to have the current user's playlists update in real-time when adding or deleting. The quickest and easiest solution was to refetch data on a specific internal via polling in order to achieve near-real time data. Polling, however, does not scale well. If this were a larger project, using the update function on the cache or refetchQueries prop to refresh would be more optimal. 
  
 ```javascript
 <Query query={FETCH_PLAYLISTS} pollInterval={200}>
