@@ -1,4 +1,4 @@
-# [SpotToCry] (http://spottocry.herokuapp.com/#/)
+# [SpotToCry](http://spottocry.herokuapp.com/#/)
  
 ## Technologies
  
